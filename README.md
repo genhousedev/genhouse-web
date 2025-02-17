@@ -77,12 +77,12 @@ __1. Set Upstream Remote__ \
 *To sync with the original repository, add an upstream remote: \
 ```git remote add upstream https://github.com/original-owner/genhouse-web.git``` \
 *Verify remotes: \
-```git remote -v``` \
+```git remote -v```
 
 __2. Fetch Updates from Upstream__ \
 *Fetch the latest updates: \
 ```git fetch upstream``` \
-*Merge Updates into Your Fork \
+*Merge Updates into Your Fork 
 ```
 git checkout main
 git merge upstream/main
