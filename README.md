@@ -51,7 +51,7 @@ git clone git@github.com:genhousedev/genhouse-web.git
 ```
 * Navigate into the repository:
 ```
-cd your-repo
+cd genhouse-web
 ```
 
 __3. Create a New Branch__
