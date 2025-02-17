@@ -40,56 +40,56 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ### How to Contribute
 
 __1. Fork the Repository__  
-*Go to the repository: https://github.com/genhousedev/genhouse-web  
-*Click the Fork button at the top right.  
+*Go to the repository: https://github.com/genhousedev/genhouse-web \
+*Click the Fork button at the top right. \
 *This will create a copy of the repository under your GitHub account.
 
 __2. Clone Your Fork__  
-*Open a terminal and run:  
-```git clone git@github.com:genhousedev/genhouse-web.git```  
-*Navigate into the repository:  
+*Open a terminal and run: \
+```git clone git@github.com:genhousedev/genhouse-web.git``` \
+*Navigate into the repository: \
 ```cd your-repo```
 
-__3. Create a New Branch__  
-*Always create a new branch for changes:  
+__3. Create a New Branch__ \
+*Always create a new branch for changes: \
 ```git checkout -b feature-branch```
 
-__4. Make Changes and Commit__  
-*Make the necessary code changes.  
-*Stage your changes:  
-```git add .```  
-*Commit with a meaningful message:  
+__4. Make Changes and Commit__ \
+*Make the necessary code changes. \
+*Stage your changes: \
+```git add .``` \
+*Commit with a meaningful message: \
 ```git commit -m "Add feature or fix bug"```
 
-__5. Push Your Changes__  
-*Push the branch to your fork:  
+__5. Push Your Changes__ \
+*Push the branch to your fork: \
 ```git push origin feature-branch```
 
-__6. Create a Pull Request (PR)__  
-*Go to your fork on GitHub.  
-*Click Compare & pull request.  
-*Provide a clear title and description.  
+__6. Create a Pull Request (PR)__ \
+*Go to your fork on GitHub. \
+*Click Compare & pull request. \
+*Provide a clear title and description. \
 *Submit the PR and wait for review.
 
 ### How to Update Your Fork
 
-__1. Set Upstream Remote__  
-*To sync with the original repository, add an upstream remote:  
-```git remote add upstream https://github.com/original-owner/genhouse-web.git```  
-*Verify remotes:  
-```git remote -v```
+__1. Set Upstream Remote__ \
+*To sync with the original repository, add an upstream remote: \
+```git remote add upstream https://github.com/original-owner/genhouse-web.git``` \
+*Verify remotes: \
+```git remote -v``` \
 
-__2. Fetch Updates from Upstream__  
-*Fetch the latest updates:  
-```git fetch upstream```  
-*Merge Updates into Your Fork  
+__2. Fetch Updates from Upstream__ \
+*Fetch the latest updates: \
+```git fetch upstream``` \
+*Merge Updates into Your Fork \
 ```
 git checkout main
 git merge upstream/main
 ```
 
-__3. Push Updates to Your Fork__  
-*Push the latest changes to your GitHub fork:  
+__3. Push Updates to Your Fork__ \
+*Push the latest changes to your GitHub fork: \
 ```git push origin main```
 
 Now your fork is up to date with the original repository!
