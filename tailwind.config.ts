@@ -11,6 +11,9 @@ export default {
   	extend: {
   		colors: {
 			gold: '#D6A02B',
+			'gold-light': '#F6EAD3',
+			'gold-dark': '#A47611',
+			'gray': '#5E5E5E',
 			'gold-hover': 'rgba(214, 160, 43, 0.8)',
 			dark: '#33364D',
 			'dark-hover': '#A6A6A6',
