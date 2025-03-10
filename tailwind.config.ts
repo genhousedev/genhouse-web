@@ -14,8 +14,10 @@ export default {
 			'gold-light': '#F6EAD3',
 			'gold-dark': '#A47611',
 			'gray': '#5E5E5E',
+			'alice-blue': '#E8F2FD',
 			'gold-hover': 'rgba(214, 160, 43, 0.8)',
 			dark: '#33364D',
+			link: '#175BCC',
 			'dark-hover': '#A6A6A6',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -58,6 +60,10 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		backgroundImage: {
+			organizationLinearBg: 'linear-gradient(102.18deg, #697986 0%, #222D39 100%)',
+			designerLinearBg: 'linear-gradient(102.18deg, #D6D4CE 0%, #B3B6B2 100%)'
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
