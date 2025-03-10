@@ -37,7 +37,7 @@ export default function WhatWeOfferSection() {
                                         2
                                     </div>
                                     <p>
-                                        Don't have time and resources to manage project yourself? Enjoy a full design and marketing service
+                                        Don&apos;t have time and resources to manage project yourself? Enjoy a full design and marketing service
                                         with a much lower fee through <span className="text-blue-600 font-medium">GP Solutions</span>
                                     </p>
                                 </div>

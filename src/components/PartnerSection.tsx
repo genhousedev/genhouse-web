@@ -25,9 +25,13 @@ function PartnerSection() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 items-center justify-items-center max-w-5xl mx-auto">
                         {partners.map((partner) => (
                             <div key={partner.name}>
-                                <img
+                                <Image
                                     src={partner.logo}
                                     alt={`${partner.name} logo`}
+                                    width={100}
+                                    height={100}
+                                    className="w-auto h-auto"
+                                    priority
                                 />
                             </div>
                         ))}

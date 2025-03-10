@@ -50,8 +50,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-        </nav >
+        </header >
     );
 }
-
-export default Navbar;
