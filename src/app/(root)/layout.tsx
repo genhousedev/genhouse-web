@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
+import Navbar from '/src/components/Navbar';
 
 function PageLayout({ children }: { children: React.ReactNode; }) {
     return (
