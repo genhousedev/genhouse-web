@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 function PartnerSection() {
 
@@ -28,6 +28,9 @@ function PartnerSection() {
                                 <img
                                     src={partner.logo}
                                     alt={`${partner.name} logo`}
+                                    width={100}
+                                    height={100}
+                                    className="w-auto h-auto"
                                 />
                             </div>
                         ))}
