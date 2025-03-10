@@ -79,7 +79,7 @@ export default function TestimonialSection() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.3 }}
               >
-                <p className="text-dark italic text-lg">&quot{teamMembers[currentIndex].quote}&quot</p>
+                <p className="text-dark italic text-lg">&quot;{teamMembers[currentIndex].quote}&quot;</p>
               </motion.div>
             </div>
           </motion.div>
