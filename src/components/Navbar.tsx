@@ -102,7 +102,7 @@ export default function Navbar() {
                                     Log in
                                 </Link>
                             </div>
-                            <div className="mt-3 px-2 space-y-1">
+                            <div className="px-2 space-y-1">
                                 <Button className="w-full bg-amber-500 hover:bg-amber-600 text-white font-medium" onClick={toggleMenu}>
                                     Join
                                 </Button>
@@ -111,6 +111,6 @@ export default function Navbar() {
                     </div>
                 </div>
             )}
-        </header>
+        </header >
     );
 }

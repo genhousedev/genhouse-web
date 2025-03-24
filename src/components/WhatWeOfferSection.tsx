@@ -9,8 +9,8 @@ export default function WhatWeOfferSection() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pb-3">
                     {/* For Organization */}
-                    <div className="flex flex-col gap-8 overflow-hidden shadow-md">
-                        <div className="bg-organizationLinearBg h-[17.25rem] flex items-center justify-center rounded-2xl">
+                    <div className="flex flex-col gap-8 overflow-hidden">
+                        <div className="bg-organizationLinearBg h-[17.25rem] flex items-center justify-center rounded-2xl relative">
                             <div className="absolute top-[14.5rem] left-5 text-white text-[1.5625rem] font-semibold">For Organization</div>
                             <Image
                                 src="assets/images/magnifying-glass.svg"
@@ -63,9 +63,9 @@ export default function WhatWeOfferSection() {
                     </div>
 
                     {/* For Designers */}
-                    <div className="flex flex-col rounded-lg gap-8 overflow-hidden shadow-md">
+                    <div className="flex flex-col rounded-lg gap-8 overflow-hidden">
                         <div className="bg-designerLinearBg relative h-[17.25rem] flex items-center justify-center rounded-2xl">
-                            <div className="absolute top-[14.5rem] left-[27.1875rem] text-white text-[1.5625rem] font-semibold">For Designers</div>
+                            <div className="absolute top-[14.5rem] lg:right-0 lg:text-end lg:pr-6 text-white text-[1.5625rem] font-semibold left-5">For Designers</div>
                             <Image
                                 src="assets/images/hand-cursor.svg"
                                 alt="hand-cursor-icon"
@@ -75,7 +75,7 @@ export default function WhatWeOfferSection() {
                             />
                         </div>
 
-                        <div className="bg-amber-50 p-10 flex-1">
+                        <div className="bg-[rgba(214,160,43,0.2)] p-10 flex-1 rounded-2xl">
                             <div className="space-y-7 text-[1.5625rem] text-dark">
                                 <div className="flex gap-7 items-center">
                                     <div className="flex-shrink-0 w-9 h-9 rounded-full bg-gold text-white flex items-center justify-center font-medium text-lg">

@@ -6,7 +6,8 @@ const poppins = Poppins({
 });
 function HeroSection() {
   return (
-    <div className="bg-[url('/assets/images/wireframes.svg')] bg-no-repeat bg-cover">
+    <div className="bg-[rgba(214,160,43,0.2)]">
+      {/* className="bg-[url('/assets/images/wireframes.svg')] bg-no-repeat bg-cover" */}
       <div className="container mx-auto px-4 py-20">
         <div className={`text-center text-dark text-[4rem] font-bold ${poppins.className}`}>
           <h1>
