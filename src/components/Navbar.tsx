@@ -50,6 +50,67 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
+
+            {/* Mobile Menu */}
+            {isMenuOpen && (
+                <div className="md:hidden">
+                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
+                        <Link
+                            href="/explore"
+                            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                            onClick={toggleMenu}
+                        >
+                            Explore
+                        </Link>
+                        <Link
+                            href="/for-designers"
+                            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                            onClick={toggleMenu}
+                        >
+                            For Designers
+                        </Link>
+                        <Link
+                            href="/for-organizations"
+                            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                            onClick={toggleMenu}
+                        >
+                            For Organizations
+                        </Link>
+                        <Link
+                            href="/solutions-suite"
+                            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                            onClick={toggleMenu}
+                        >
+                            Solutions Suite
+                        </Link>
+                        <Link
+                            href="/contact"
+                            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                            onClick={toggleMenu}
+                        >
+                            Contact
+                        </Link>
+                    </div>
+                    <div className="pt-4 pb-3 border-t border-gray-200">
+                        <div className="flex px-5 items-center">
+                            <div className="flex-shrink-0">
+                                <Link
+                                    href="/login"
+                                    className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                                    onClick={toggleMenu}
+                                >
+                                    Log in
+                                </Link>
+                            </div>
+                            <div className="px-2 space-y-1">
+                                <Button className="w-full bg-amber-500 hover:bg-amber-600 text-white font-medium" onClick={toggleMenu}>
+                                    Join
+                                </Button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
         </header >
     );
 }

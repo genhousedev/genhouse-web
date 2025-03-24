@@ -5,7 +5,8 @@ import { projects } from "@/constants";
 function ProjectSection() {
 
     return (
-        <main className="min-h-screen bg-alice-blue relative overflow-hidden bg-[url('/assets/images/project-background.png')] bg-blend-color">
+        <main className="min-h-screen bg-alice-blue relative overflow-hidden bg-blend-color">
+            {/* bg-[url('/assets/images/project-background.png')] */}
             {/* Content container */}
             <div className="relative z-10 max-w-6xl mx-auto px-4 py-2 md:py-10">
                 <div className="flex flex-col gap-10">
