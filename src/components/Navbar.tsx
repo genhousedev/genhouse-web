@@ -92,7 +92,7 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div className="pt-4 pb-3 border-t border-gray-200">
-                        <div className="flex px-5 items-center">
+                        <div className="flex items-center px-5">
                             <div className="flex-shrink-0">
                                 <Link
                                     href="/login"
